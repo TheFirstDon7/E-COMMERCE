@@ -8,7 +8,7 @@ function menutoggle() {
         MenuItems.style.maxHeight = "0px";
     }
 }
-
+//js for product gallery
 var Productimg = document.getElementById("Productimg");
 var SmallImg = document.getElementsByClassName("small-img");
 
