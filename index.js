@@ -24,3 +24,19 @@ SmallImg[2].onclick = function () {
 SmallImg[3].onclick = function () {
     Productimg.src = SmallImg[3].src;
 }
+
+// toggle login form
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+function register() {
+    RegForm.style.transform = "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+
+}
+function login() {
+    RegForm.style.transform = "translateX(300px)";
+    LoginForm.style.transform = "translateX(300px)";
+
+}
